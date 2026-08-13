@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const figlet = require("figlet");
+const figlet = require("../node_modules/figlet/dist/types/cjs/figlet.d.cts");
 const path=require("path");
 const ejs=require("ejs");
 app.set("view engine", "ejs");
